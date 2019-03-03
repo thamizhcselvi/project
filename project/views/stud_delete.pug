@@ -1,0 +1,11 @@
+doctype html
+
+title Delete a Course
+
+h1 Delete a Course
+form(method='POST' action='/stud_delete')
+    input#reg_no.form-control(type='text', placeholder='Register number' name='reg_no')
+    br
+    input#course_id.form-control(type='text', placeholder='Course id' name='course_id')
+    br
+    button#submit(type='submit') Delete

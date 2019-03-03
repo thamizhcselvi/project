@@ -1,0 +1,14 @@
+doctype html
+
+title Register Course
+
+h1 Register Course
+
+form(method='POST' action='/reg_course')
+    input#name.form-control(type='text', placeholder='Student name' name='name')
+    br
+    input#reg_no.form-control(type='text', placeholder='Register number' name='reg_no')
+    br
+    input#course_id.form-control(type='text', placeholder='Course id' name='course_id')
+    br
+    button#submit(type='submit') Submit
